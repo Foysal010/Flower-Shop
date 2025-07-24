@@ -378,6 +378,60 @@ nav li a{
 }
 
 
+/* last div */
+
+.last-div{
+    background-image: url('./assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+    color: white;
+    
+    
+}
+
+.last-div-title{
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.125rem;
+    
+   
+    
+}
+
+.last-div-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 0px;
+    
+    
+}
+
+.input [type='text']{
+    width: 600px;
+    height:36px;
+    
+}
+
+.btn{
+    background-color: rgba(233, 90, 8, 1);
+    color: white;
+    padding: 12px 53px;
+    border: none;
+
+}
 
 
 
