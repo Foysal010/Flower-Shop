@@ -118,7 +118,7 @@ nav li a{
         flex-direction: column;
         /* align-items: center; */
         /* text-align: ; */
-        margin: 60px 20px;
+        margin: 50px 20px;
     }
 
     .banner-content{
@@ -126,11 +126,11 @@ nav li a{
     }
 
     .banner-title{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     .banner-description{
-        font-size: 1.1rem;
+        font-size: 0.87rem;
     }
 
 }
@@ -178,7 +178,8 @@ nav li a{
 @media screen and (max-width: 576px) {
 
     .Our-plants{
-        width: 360px;
+        width: 100%;
+        margin-top: 0px;
     }
 
     .plants-container{
@@ -189,11 +190,11 @@ nav li a{
     
 
     .section-title{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     .section-description{
-        font-size: 1.1rem;
+        font-size: 0.87rem;
     }
 
     .plants-title{
@@ -257,11 +258,22 @@ nav li a{
 @media screen and (max-width:576px) {
    .flowers-plants{
     flex-direction: column;
+    gap: 0px;
+    margin: 0px;
    } 
 
    .badge-img{
     display: none;
    }
+
+   .section-header{
+    font-size: 1.5rem;
+   }
+
+   .break{
+    display: none;
+   }
+
 }
 
 
@@ -392,6 +404,7 @@ nav li a{
     .deals-image{
         
         flex-direction: column;
+        gap: 20px;
     }
 
     .right{
@@ -399,6 +412,23 @@ nav li a{
          height: 206px;
          font-size:1.25rem;
          font-weight: bold;
+    }
+
+    .latest-deal{
+        margin-top: 40px;
+        
+    }
+
+    .deal-title{
+        font-size: 1.5rem;
+    }
+
+    .deal-description{
+        font-size: 0.86rem;
+    }
+
+    .break2{
+        display: none;
     }
 
     
@@ -457,7 +487,7 @@ nav li a{
 
 @media screen and (max-width:576px) {
     .last-div{
-        height: 275px;
+        height: 285px;
     }
     .input [type='text']{
     width: 218px;
@@ -469,7 +499,7 @@ nav li a{
 }
 
 .last-div-title{
-    font-size: 20px;
+    font-size: 1.10rem;
     top: 35%;
 }
 }
