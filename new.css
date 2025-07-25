@@ -334,9 +334,9 @@ nav li a{
 }
 
 
-.left{
+/* .left{
     gap:  ;
-}
+} */
 
 
 .left-1{
@@ -467,9 +467,7 @@ nav li a{
     top: 62%;
     left: 50%;
     transform: translate(-50%, -50%);
-    gap: 0px;
-    
-    
+    gap: 0px; 
 }
 
 .input [type='text']{
