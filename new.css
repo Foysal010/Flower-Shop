@@ -141,7 +141,7 @@ nav li a{
     
     margin: 150px auto;
     /* padding: ; */
-    max-width: 1140px;
+    width: 1140px;
 }
 
 
@@ -177,13 +177,16 @@ nav li a{
 
 @media screen and (max-width: 576px) {
 
-
+    .Our-plants{
+        width: 360px;
+    }
 
     .plants-container{
-        grid-template-columns: repeat(2, 1fr);
-       
-        
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
     }
+
+    
 
     .section-title{
         font-size: 2.5rem;
@@ -200,6 +203,12 @@ nav li a{
     .plants-price{
         font-size: 1.1rem;
     }
+
+    .store-img{
+        width: 100%;
+    }
+
+    
     
 }
 
@@ -245,6 +254,20 @@ nav li a{
 }
 
 
+@media screen and (max-width:576px) {
+   .flowers-plants{
+    flex-direction: column;
+   } 
+
+   .badge-img{
+    display: none;
+   }
+}
+
+
+
+
+
 /* deals part style */
 
 .latest-deal{
@@ -278,28 +301,7 @@ nav li a{
 }
 
 
-/* .deal-img-p1{
-    display: flex;
-    flex-direction: column;
-    row-gap: 25px;
-}
 
-.deal-img-1{
-    border-radius: 15px;
-    width: 360px;
-    height: 206px;
-}
-
-.deal-img-p2{
-    width: 750px;
-    height: 450px;
-}
-
-.deal-img-2{
-    border-radius: 15px;
-    width: 750px;
-    height: 420px;
-} */
 
 .deals-image{
     display: flex;
@@ -386,7 +388,21 @@ nav li a{
     filter: brightness(70%);
 }
 
+@media screen and (max-width:576px) {
+    .deals-image{
+        
+        flex-direction: column;
+    }
 
+    .right{
+         width: 360px;
+         height: 206px;
+         font-size:1.25rem;
+         font-weight: bold;
+    }
+
+    
+}
 
 
 
@@ -411,9 +427,6 @@ nav li a{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3.125rem;
-    
-   
-    
 }
 
 .last-div-container{
@@ -432,7 +445,6 @@ nav li a{
 .input [type='text']{
     width: 600px;
     height:36px;
-    
 }
 
 .btn{
@@ -440,7 +452,26 @@ nav li a{
     color: white;
     padding: 12px 53px;
     border: none;
+}
 
+
+@media screen and (max-width:576px) {
+    .last-div{
+        height: 275px;
+    }
+    .input [type='text']{
+    width: 218px;
+    height:50px;
+}
+
+.btn{
+    padding: 19px 20px;
+}
+
+.last-div-title{
+    font-size: 20px;
+    top: 35%;
+}
 }
 
 /* footer */
@@ -478,8 +509,33 @@ footer li a{
 
 .social-midea img{
     margin-left: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
+/* footer respovsive */
+
+@media screen and (max-width: 576px) {
+  .footer-section {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    /* text-align: center; */
+  }
+
+  .unorder {
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px;
+    /* align-items: center; */
+  }
+
+  .social-midea {
+    display: flex;
+    /* justify-content: center;
+    gap: 15px;
+    margin-top: 20px; */
+  }
+}
 
 
 
